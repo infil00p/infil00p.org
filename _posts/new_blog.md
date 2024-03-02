@@ -6,6 +6,9 @@ date: '2024-01-07T10:48:30.322Z'
 author:
   name: Joe Bowser
   picture: '/assets/blog/authors/joe.png'
+  bio: 'Joe writes software, hikes and lives in Port Moody, BC'
+  instagram: 'infil00p'
+  linked_in: 'https://www.linkedin.com/in/joe-bowser-17b3397/'
 ---
 
 ## Back to Static
