@@ -2,7 +2,7 @@
 title: 'The next chapter'
 excerpt: 'Update to the blog, and a life update'
 coverImage: '/assets/cover_image/cover.jpg'
-date: '2024-04-01T10:48:30.322Z'
+date: '2024-06-01T10:48:30.322Z'
 author:
   name: Joe Bowser
   picture: '/assets/blog/authors/joe.png'
