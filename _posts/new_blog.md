@@ -1,8 +1,8 @@
 ---
-title: 'Yet another blog migration'
-excerpt: 'A blog refresh for the personal blog'
+title: 'The next chapter'
+excerpt: 'Update to the blog, and a life update'
 coverImage: '/assets/cover_image/cover.jpg'
-date: '2024-01-07T10:48:30.322Z'
+date: '2024-04-01T10:48:30.322Z'
 author:
   name: Joe Bowser
   picture: '/assets/blog/authors/joe.png'
@@ -11,25 +11,49 @@ author:
   linked_in: 'https://www.linkedin.com/in/joe-bowser-17b3397/'
 ---
 
-## Back to Static
+### Hello, Again
 
-It's been quite a while, and things have definitely changed. I decided that I'm very out of practice with front-end 
-web development and I'm going to have to suck up my pride and really learn Typescript and React by working on a project, 
-hence the migration to next.js, because as much as I don't like it, React won years ago.
+I haven't maintained a blog in years, and in fact I don't think most people have.  I switched back to Wordpress
+a few years ago, but that never stuck, and I feel the need to re-start the blog from the beginning, so here it is.
 
-There's also the fact that I wasn't maintaining my Wordpress blog, so that's a thing.
+## Who I am
 
-## What are you doing now?
+I'm Joe Bowser, I've done many things, but I'm most well known for being a Software Developer who co-created PhoneGap and Apache Cordova, a framework
+for making Mobile Applications using HTML, CSS and Javascript.  I'm also known for the following things:
 
-Honestly, outside of work, which I currently can't discuss, I'm not working on new tech at the moment (because of my contract).  What I am doing is
-setting up a blog for my adventures, whether they be hiking, bikepacking, packrafting, or simply car camping and doing roadtrips
-in my Rivian R1T.  I was thinking of starting a vlog, but that requires a lot of work and I'd rather just write and take pictures
-than constantly leave my cameras and GoPros everywhere getting shots of me walking away from them, only for me to have to go back 
-and pick them up.
+* Working on OnDevice Machine Learning Features and doing presentations at conferences
+* Being spied on by the RCMP for five years due to the 2010 Olympics and me being against them
+* Co-Founding a Campus-Based Community Radio Station in Prince George
+* Co-Founding the Vancouver Hack Space and disavowing it once they decided to add cameras
+* Doing a Community WiFi thing and deciding that it actually needs to come from the communities it serves
+* Putting on a Live Hip-Hop concert in Surrey despite not knowing anything about HipHop or the Vancouver Hip Hop scene in the late 2000s, or even being from Vancouver
+* Owning a Rivian R1T
 
-## Wait, is this a personal adventure blog?
+And now I'm going to be starting on my next big adventure, which is hiking 2650 miles from Mexico to Canada on the Pacific Crest Trail.  I'm leaving my job
+of seventeen years (some would argue the job left me), leaving my family for five whole months, leaving the whole GenAI hype and tech in general behind.
 
-Yes, it's a personal blog. The content on here is going to be about how I go on adventures, where I'm going, and maybe it'll have 
-some good information for other people who also want to go on an EV Roadtrip, or hike a trail, or start packrafting.  I'm not an
-expert at any of these things (except maybe the EV roadtrip thing), and I'll definitely defer to others who are, but if you want
-to see maps, and other information written down, here's the place for it.
+## WHY?
+
+In short, I'm burned out and the job market sucks. I also need to get away from the hype machine that is AI to actually figure out if any of my startup ideas
+are any good and can be used by real people or businesses. I've been at the forefront of software development on and off for seventeen years at this point, first with mobile, and more recently with AI.  I honestly need a break from tech.
+
+
+## OK, But why the PCT?
+
+ * The trail is there
+ * I'm probably never going to be unemployed for a long time after this stint of unemployment.  The last time I was unemployed was 2007.
+ * I need to lose weight, and I can't afford Ozempic
+ * It looks better on LinkedIn than "I just sat around at home playing Baldurs Gate 3"
+
+## OK, you're going to do the trail and then what?
+
+I don't know yet.  I might do a startup? I might just get a new job? I might just sell my house give up on tech and the lower mainland and move somewhere cheaper and get a non-tech job that covers my expenses.  That's the cool thing about the future, it's unwritten.
+
+## This is an absolutely terrible idea! What have you done?!!?!?!
+
+There's two types of reactions when I tell people that I'm leaving my job and doing the trail:
+
+* This is an absolutely terrible idea
+* That's the coolest thing I ever heard
+
+The reality is that people are generally risk-averse and while a situation might be awful, because they're in America, or because they don't have the money or the life experience, they think that 
