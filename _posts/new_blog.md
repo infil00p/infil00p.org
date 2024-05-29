@@ -27,16 +27,14 @@ for making Mobile Applications using HTML, CSS and Javascript.  I'm also known f
 * Co-Founding the Vancouver Hack Space and disavowing it once they decided to add cameras
 * Doing a Community WiFi thing and deciding that it actually needs to come from the communities it serves
 * Putting on a Live Hip-Hop concert in Surrey despite not knowing anything about HipHop or the Vancouver Hip Hop scene in the late 2000s, or even being from Vancouver
-* Owning a Rivian R1T
+* Owning a Rivian R1T and posting a ton of pictures of it on Instagram
 
 And now I'm going to be starting on my next big adventure, which is hiking 2650 miles from Mexico to Canada on the Pacific Crest Trail.  I'm leaving my job
 of seventeen years (some would argue the job left me), leaving my family for five whole months, leaving the whole GenAI hype and tech in general behind.
 
 ## WHY?
 
-In short, I'm burned out and the job market sucks. I also need to get away from the hype machine that is AI to actually figure out if any of my startup ideas
-are any good and can be used by real people or businesses. I've been at the forefront of software development on and off for seventeen years at this point, first with mobile, and more recently with AI.  I honestly need a break from tech.
-
+In short, I'm burned out and the job market sucks.  Throughout my career, but especially over the past five years, there's been a constant battle between my health and my career, and due to external factors, the career always won.  However, financially and due to circumstances beyond my control, I am now in a situation where I have the opportunity to put my career on a temporary pause and pursue a long time goal of thru-hiking the Pacific Crest Trail.
 
 ## OK, But why the PCT?
 
@@ -48,12 +46,3 @@ are any good and can be used by real people or businesses. I've been at the fore
 ## OK, you're going to do the trail and then what?
 
 I don't know yet.  I might do a startup? I might just get a new job? I might just sell my house give up on tech and the lower mainland and move somewhere cheaper and get a non-tech job that covers my expenses.  That's the cool thing about the future, it's unwritten.
-
-## This is an absolutely terrible idea! What have you done?!!?!?!
-
-There's two types of reactions when I tell people that I'm leaving my job and doing the trail:
-
-* This is an absolutely terrible idea
-* That's the coolest thing I ever heard
-
-The reality is that people are generally risk-averse and while a situation might be awful, because they're in America, or because they don't have the money or the life experience, they think that 
