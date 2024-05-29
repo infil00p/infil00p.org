@@ -1,7 +1,6 @@
 type Props = {
     name: string
     picture: string
-    bio: string
   }
 
   const AboutInfo = ({ name, picture }: Props) => {
