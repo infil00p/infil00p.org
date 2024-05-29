@@ -1,6 +1,6 @@
 ---
 title: 'The next chapter'
-excerpt: 'Update to the blog, and a life update'
+excerpt: 'Blog refresh, and a life update'
 coverImage: '/assets/cover_image/cover.jpg'
 date: '2024-06-01T10:48:30.322Z'
 author:
