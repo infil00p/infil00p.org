@@ -46,3 +46,8 @@ In short, I'm burned out and the job market sucks.  Throughout my career, but es
 ## OK, you're going to do the trail and then what?
 
 I don't know yet.  I might do a startup? I might just get a new job? I might just sell my house give up on tech and the lower mainland and move somewhere cheaper and get a non-tech job that covers my expenses.  That's the cool thing about the future, it's unwritten.
+
+## Your blog is kinda ugly now
+
+Yeah, to be honest, I kinda rushed this because I've spent more time doing a shakedown and figuring out my hiking and personal situation than getting this together.  Also, I'm kinda new to Next, and while it's easy to get a template up, I ran into issues with Mapbox integration and I actually find it
+harder to use this framework than just writing Vanilla JS.  However, hobby projects are how you learn things, so here we are.
