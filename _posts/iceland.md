@@ -2,7 +2,7 @@
 title: 'Sabbatical in Iceland: A COVID Timeline'
 excerpt: 'Iceland'
 coverImage: '/assets/cover_image/iceland.jpg'
-date: '2024-07-16T10:48:30.322Z'
+date: '2022-07-16T10:48:30.322Z'
 author:
   name: Joe Bowser
   picture: '/assets/blog/authors/joe.png'
