@@ -14,7 +14,6 @@ export default function About() {
               <title>{`${CMS_NAME}`}</title>
             </Head>
             <Container>
-              <Intro />
               <AboutInfo name='Joe Bowser' picture='/assets/blog/authors/joe.png'/>
             </Container>
           </Layout>
