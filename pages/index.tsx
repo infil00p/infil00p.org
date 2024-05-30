@@ -19,6 +19,9 @@ export default function Index({ allPosts }: Props) {
   return (
     <>
       <Layout>
+        <Head>
+              <title>{`${CMS_NAME}`}</title>
+        </Head>
         <Header></Header>        
         <Container>
           {heroPost && (
@@ -31,7 +34,6 @@ export default function Index({ allPosts }: Props) {
               excerpt={heroPost.excerpt}
             />
           )}
-          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
         </Container>
       </Layout>
     </>

@@ -11,7 +11,7 @@ const Footer = () => {
           <div></div>
           <div><a href="/about">About</a></div>
           <div></div>
-          <div><a href="/speaking">Speaking</a></div>
+          <div><a href="/posts/speaking">Speaking</a></div>
           <div></div>
           <div></div>
           <div></div>
