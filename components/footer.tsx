@@ -6,12 +6,16 @@ const Footer = () => {
   return (
     <footer className="bg-neutral-50 border-t border-neutral-200">
       <Container>
-        <div className="py-20 flex flex-col lg:flex-row ">
-          <ul className="flex flex-wrap items-center justify-center">
-          <li><a href="/"><Image src="/assets/icons/noun-campground-209.svg" height={32} width={32} alt="Home"/>Home </a></li>
-          <li><a href="/about"><Image src="/assets/icons/noun-library-191.svg" height={32} width={32} alt="About"/> About </a></li>
-          <li><a href="/speaking"><Image src="/assets/icons/noun-amphitheater-323.svg" height={32} width={32} alt="Speaking"/>Speaking</a></li>
-        </ul>
+        <div className='py-10 grid gap-2 grid-cols-2 grid-rows-6'>
+          <div><a href="/">Home</a></div>
+          <div></div>
+          <div><a href="/about">About</a></div>
+          <div></div>
+          <div><a href="/speaking">Speaking</a></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div>Copyright 2024 Joe Bowser</div>
         </div>
       </Container>
     </footer>

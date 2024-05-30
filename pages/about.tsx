@@ -4,6 +4,7 @@ import Layout from '../components/layout'
 import Head from 'next/head'
 import { CMS_NAME } from '../lib/constants'
 import AboutInfo from '../components/about_info'
+import Header from '../components/header'
 
 
 export default function About() {
@@ -13,8 +14,11 @@ export default function About() {
             <Head>
               <title>{`${CMS_NAME}`}</title>
             </Head>
+            <Header />
             <Container>
+              <article className="mb-32">
               <AboutInfo name='Joe Bowser' picture='/assets/blog/authors/joe.png'/>
+              </article>
             </Container>
           </Layout>
         </>
