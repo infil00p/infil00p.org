@@ -1,6 +1,7 @@
 import Alert from './alert'
 import Footer from './footer'
 import Meta from './meta'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 type Props = {
   preview?: boolean
