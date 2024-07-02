@@ -22,9 +22,8 @@ type Props = {
         </p>
         <h3>Joe on Social Media</h3>
         <ul>
-          <li>LinkedIn</li>
-          <li>Instagram</li>
-          <li>TikTok</li>
+          <li><a href="https://www.linkedin.com/in/joe-bowser-17b3397/">LinkedIn</a></li>
+          <li><a href="https://instagram.com/infil00p">Instagram</a></li>
         </ul>
       </div>
     )
