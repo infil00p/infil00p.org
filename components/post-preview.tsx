@@ -24,6 +24,9 @@ const PostPreview = ({
   return (
     <div>
       <h3 className="text-3xl mb-3 leading-snug">
+      <div className="mb-8 md:mb-16">
+        <CoverImage title={title} src={coverImage} slug={slug} />
+      </div>
         <Link
           as={`/posts/${slug}`}
           href="/posts/[slug]"
