@@ -1,6 +1,7 @@
 import Alert from './alert'
 import Footer from './footer'
 import Meta from './meta'
+import { GoogleAnalytics } from '@next/third-parties/google'
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
 type Props = {
@@ -17,6 +18,8 @@ const Layout = ({ preview, children }: Props) => {
         <main>{children}</main>
       </div>
       <Footer />
+      <GoogleAnalytics gaId="G-504M4XPRLD" />
+      <SpeedInsights />
     </>
   )
 }
