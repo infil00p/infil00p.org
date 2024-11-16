@@ -1,7 +1,7 @@
 ---
 title: 'Introducing Baseweight'
 excerpt: 'An update on where things are at'
-coverImage: '/assets/cover_image/rivian_rockies.jpg'
+coverImage: '/assets/cover_image/pasayten_meadow.jpg'
 date: '2024-08-14T10:48:30.322Z'
 author:
   name: Joe Bowser
