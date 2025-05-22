@@ -3,6 +3,7 @@ import html from 'remark-html'
 import { visit } from 'unist-util-visit'
 
 const youtubeRegex = /https?:\/\/(?:www\.)?youtube\.com\/watch\?v=([a-zA-Z0-9_-]+)/
+const geojsonRegex = /```geojson\n([\s\S]*?)\n```/g
 
 function replaceYouTubeLinks() {
   return (tree: any) => {
@@ -17,10 +18,23 @@ function replaceYouTubeLinks() {
   }
 }
 
+function replaceGeoJSON() {
+  return (tree: any) => {
+    visit(tree, 'code', (node: any) => {
+      if (node.lang === 'geojson') {
+        const geojsonData = JSON.parse(node.value)
+        node.type = 'html'
+        node.value = `<div id="map-${Math.random().toString(36).substr(2, 9)}" class="map-container" data-geojson='${JSON.stringify(geojsonData)}'></div>`
+      }
+    })
+  }
+}
+
 export default async function markdownToHtml(markdown: string) {
   const result = await remark()
     .use(html)
     .use(replaceYouTubeLinks)
+    .use(replaceGeoJSON)
     .process(markdown)
   
   return result.toString()

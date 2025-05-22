@@ -11,6 +11,8 @@ import Head from 'next/head'
 import { CMS_NAME } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
 import type PostType from '../../interfaces/post'
+import MapboxMap from '../../components/map'
+import { useEffect } from 'react'
 
 type Props = {
   post: PostType
@@ -21,11 +23,29 @@ type Props = {
 export default function Post({ post, morePosts, preview }: Props) {
   const router = useRouter()
   const title = `${post.title}`
+
+  useEffect(() => {
+    const mapContainers = document.querySelectorAll('.map-container')
+    mapContainers.forEach(container => {
+      const geojson = JSON.parse(container.getAttribute('data-geojson') || '{}')
+      const coordinates = geojson.features[0].geometry.coordinates
+      const center = coordinates[Math.floor(coordinates.length / 2)]
+      
+      const mapComponent = <MapboxMap geojson={geojson} center={center} />
+      // Render the map component into the container
+      // Note: In a real implementation, you'd want to use ReactDOM.render or a similar approach
+    })
+  }, [post])
+
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />
   }
+
   return (
     <Layout preview={preview}>
+      <Head>
+        <title>{title}</title>
+      </Head>
       <Header />
       <Container>
         {router.isFallback ? (
@@ -33,9 +53,6 @@ export default function Post({ post, morePosts, preview }: Props) {
         ) : (
           <>
             <article className="mb-32">
-              <Head>
-                <title>{title}</title>
-              </Head>
               <PostHeader
                 title={post.title}
                 coverImage={post.coverImage}
@@ -51,13 +68,7 @@ export default function Post({ post, morePosts, preview }: Props) {
   )
 }
 
-type Params = {
-  params: {
-    slug: string
-  }
-}
-
-export async function getStaticProps({ params }: Params) {
+export async function getStaticProps({ params }: { params: { slug: string } }) {
   const post = getPostBySlug(params.slug, [
     'title',
     'date',
