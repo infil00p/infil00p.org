@@ -15,7 +15,7 @@ const Footer = () => {
           <div></div>
           <div></div>
           <div></div>
-          <div>Copyright 2024 Joe Bowser</div>
+          <div>Copyright 2025 Joe Bowser</div>
         </div>
       </Container>
     </footer>
