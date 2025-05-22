@@ -4,14 +4,14 @@ import { EXAMPLE_PATH } from '../lib/constants'
 
 const Footer = () => {
   return (
-    <footer className="bg-neutral-50 border-t border-neutral-200">
+    <footer className="bg-forest-100 border-t border-forest-300">
       <Container>
-        <div className='py-10 grid gap-2 grid-cols-2 grid-rows-6'>
-          <div><a href="/">Home</a></div>
+        <div className='py-10 grid gap-2 grid-cols-2 grid-rows-6 text-forest-700'>
+          <div><a href="/" className="hover:text-forest-500">Home</a></div>
           <div></div>
-          <div><a href="/about">About</a></div>
+          <div><a href="/about" className="hover:text-forest-500">About</a></div>
           <div></div>
-          <div><a href="/posts/speaking">Speaking</a></div>
+          <div><a href="/posts/speaking" className="hover:text-forest-500">Speaking</a></div>
           <div></div>
           <div></div>
           <div></div>
