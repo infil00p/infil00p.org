@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 type Props = {
   name: string
   picture: string
@@ -6,8 +8,15 @@ type Props = {
 const Avatar = ({ name, picture }: Props) => {
   return (
     <div className="flex items-center">
-      <img src={picture} className="w-12 h-12 rounded-full mr-4" alt={name} />
-      <div className="text-xl font-bold">{name}</div>
+      <div className="relative w-8 h-8 mr-3">
+        <Image
+          src={picture}
+          fill
+          className="rounded-full"
+          alt={name}
+        />
+      </div>
+      <div className="text-base font-medium">{name}</div>
     </div>
   )
 }
