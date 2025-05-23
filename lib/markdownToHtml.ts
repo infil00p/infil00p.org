@@ -1,12 +1,14 @@
 import { remark } from 'remark'
 import html from 'remark-html'
 import { visit } from 'unist-util-visit'
+import type { Plugin } from 'unified'
+import type { Root } from '@types/unist'
 
 const youtubeRegex = /https?:\/\/(?:www\.)?youtube\.com\/watch\?v=([a-zA-Z0-9_-]+)/
 const geojsonRegex = /```geojson\n([\s\S]*?)\n```/g
 
-function replaceYouTubeLinks() {
-  return (tree: any) => {
+const replaceYouTubeLinks: Plugin<[], Root> = () => {
+  return (tree) => {
     visit(tree, 'text', (node: any) => {
       const matches = node.value.match(youtubeRegex)
       if (matches) {
@@ -18,13 +20,19 @@ function replaceYouTubeLinks() {
   }
 }
 
-function replaceGeoJSON() {
-  return (tree: any) => {
+const replaceGeoJSON: Plugin<[], Root> = () => {
+  return (tree) => {
     visit(tree, 'code', (node: any) => {
       if (node.lang === 'geojson') {
-        const geojsonData = JSON.parse(node.value)
-        node.type = 'html'
-        node.value = `<div id="map-${Math.random().toString(36).substr(2, 9)}" class="map-container" data-geojson='${JSON.stringify(geojsonData)}'></div>`
+        try {
+          const geojsonData = JSON.parse(node.value)
+          node.type = 'html'
+          node.value = `<div id="map-${Math.random().toString(36).substr(2, 9)}" class="map-container" data-geojson='${JSON.stringify(geojsonData)}'></div>`
+        } catch (e) {
+          console.error('Failed to parse GeoJSON:', e)
+          node.type = 'html'
+          node.value = '<div class="error">Invalid GeoJSON data</div>'
+        }
       }
     })
   }
