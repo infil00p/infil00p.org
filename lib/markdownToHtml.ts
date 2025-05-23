@@ -2,7 +2,7 @@ import { remark } from 'remark'
 import html from 'remark-html'
 import { visit } from 'unist-util-visit'
 import type { Plugin } from 'unified'
-import type { Root } from '@types/unist'
+import type { Root } from 'mdast'
 
 const youtubeRegex = /https?:\/\/(?:www\.)?youtube\.com\/watch\?v=([a-zA-Z0-9_-]+)/
 const geojsonRegex = /```geojson\n([\s\S]*?)\n```/g

@@ -14,6 +14,7 @@
     "date-fns": "^2.28.0",
     "gray-matter": "^4.0.3",
     "mapbox-gl": "^2.15.0",
+    "mdast": "^3.0.0",
     "next": "latest",
     "nextjs": "^0.0.3",
     "react": "^18.2.0",
