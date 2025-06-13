@@ -3,7 +3,7 @@ import '../styles/index.css'
 import 'mapbox-gl/dist/mapbox-gl.css'
 import { useEffect } from 'react'
 import hljs from 'highlight.js'
-import 'highlight.js/styles/vs2015.css'
+import 'highlight.js/styles/atom-one-dark.css'
 import cmake from 'highlight.js/lib/languages/cmake'
 
 // Register CMake language
