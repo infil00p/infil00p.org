@@ -23,15 +23,14 @@ const AboutInfo = ({ name, picture }: Props) => {
             <h1 className="text-3xl font-bold text-forest-800 mb-4">{name}</h1>
             <div className="prose text-forest-700 space-y-6">
               <p>
-                Joe is a senior software developer with over a decade of experience specializing in mobile development on Android. He is most widely known
+                Joe is a staff level software developer with over a decade of experience specializing in mobile development on Android. He is most widely known
                 for his work on PhoneGap and Apache Cordova, but has recently worked with AI/ML technologies specializing in Local/On Device deployments, has 
                 contributed to Tensorflow and has spoken at numerous conferences on the topic, including at PyTorch Conference.
               </p>
               <p>
-                He is attempting to complete the Pacific Crest Trail starting on June 17, 2024. If he is able to complete this thru-hike, he may
-                attempt more. In the past, he has been associated with numerous causes such as activism related to the state surveillance of 
-                indigenous people and environmental movements, and at one point was considered a Critical Threat to Olympics Infrastructure during the 
-                2010 Winter Olympics by the RCMP.
+                He attempted a south-bound thru-hike of the Pacific Crest Trail in 2024, but had to abandon the attempt due to numerous injuries. In the past, 
+                he has been associated with numerous causes such as activism related to the state surveillance of indigenous people and environmental movements, 
+                and at one point was considered a Critical Threat to Olympics Infrastructure during the 2010 Winter Olympics by the RCMP.
               </p>
               <p>
                 Joe has a BSc from the University of Northern British Columbia, and was a cofounder and the first Program Director of CFUR Radio.
