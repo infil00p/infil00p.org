@@ -1,14 +1,14 @@
 ---
-title: 'The internals of Baseweight Snap'
-excerpt: 'Explorations with llama.cpp and libmtmd'
-coverImage: '/assets/cover_image/baseweight_snap_web_summit.jpg'
-date: '2025-06-11T10:48:30.322Z'
+title: "The internals of Baseweight Snap"
+excerpt: "Explorations with llama.cpp and libmtmd"
+coverImage: "/assets/cover_image/baseweight_snap.jpg"
+date: "2025-06-11T10:48:30.322Z"
 author:
-  name: Joe Bowser
-  picture: '/assets/blog/authors/joe.png'
-  bio: 'Joe writes software, hikes and lives in Port Moody, BC'
-  instagram: 'infil00p'
-  linked_in: 'https://www.linkedin.com/in/joe-bowser/'
+  name: "Joe Bowser"
+  picture: "/assets/blog/authors/joe.png"
+  bio: "Joe writes software, hikes and lives in Port Moody, BC"
+  instagram: "infil00p"
+  linked_in: "https://www.linkedin.com/in/joe-bowser-17b3397/"
 ---
 
 Back on May 5th, Xuan-Son Nguyen edited the readme and renamed the llava repo to mtmd, and libmtmd was born.  SmolVLM
@@ -17,12 +17,17 @@ lacked multimodal support.  In the meantime I was experimenting on bringing Smol
 
 Then after the announcement about libmtmd a couple weeks ago, I did a sprint, got llama.cpp and libmtmd integrated into an app the replicated the functionality of Hugging Snap, an earlier iOS only application written by Hugging Face, and Baseweight Snap was born.
 
+<YouTube video_id="16FLQFcMwkQ" />
+
 My goal was to have a cool demo to show people at Web Summit Vancouver to talk about my startup, Baseweight.  While I 
 decided to shelve Baseweight, the OnDevice AI tool business, in its current form, the demo was impressive.
 
 However, unlike the last demo where we used Executorch to run Llama-3.2-3B on a Pixel 9 for a week, Baseweight Snap lasted a few hours until the battery died.  Not only that, the peformance of llama.cpp even with Vulkan acceleration was relatively poor, and every other device I managed to get my hands on didn't even support 16 bit registers and I couldn't get it to work.
 
 Meanwhile Google did implement VLMs with Gemma.  It seems buried deep in a chat interface, and it's weird they chose to show it that way instead of using a camera, since that's truly where the mobile use case shines.
+
+<YouTube video_id="tS2rlpHN-N8" />
+
 
 ## How Visual Language Models work
 

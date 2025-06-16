@@ -27,12 +27,18 @@
 
 /* Code block styling */
 pre {
-  @apply rounded-lg p-4 my-4 overflow-x-auto;
+  @apply rounded-lg p-4 my-4 overflow-x-auto bg-[#282c34];
   font-size: 0.875rem;
 }
 
 code {
   @apply font-mono;
+}
+
+/* Code block code */
+pre code {
+  @apply text-gray-100;
+  background: transparent !important;
 }
 
 /* Inline code */
@@ -41,68 +47,69 @@ code {
 }
 
 /* Code syntax highlighting */
-.token.comment,
-.token.prolog,
-.token.doctype,
-.token.cdata {
-  color: #6a9955;
+.hljs {
+  @apply bg-transparent;
 }
 
-.token.punctuation {
-  color: #d4d4d4;
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-name,
+.hljs-strong {
+  @apply text-[#c678dd];
 }
 
-.token.property,
-.token.tag,
-.token.boolean,
-.token.number,
-.token.constant,
-.token.symbol {
-  color: #b5cea8;
+.hljs-code {
+  @apply text-[#56b6c2];
 }
 
-.token.selector,
-.token.attr-name,
-.token.string,
-.token.char,
-.token.builtin {
-  color: #ce9178;
+.hljs-class .hljs-title {
+  @apply text-[#e5c07b];
 }
 
-.token.operator,
-.token.entity,
-.token.url,
-.language-css .token.string,
-.style .token.string {
-  color: #d4d4d4;
+.hljs-attribute,
+.hljs-symbol,
+.hljs-regexp,
+.hljs-link {
+  @apply text-[#56b6c2];
 }
 
-.token.atrule,
-.token.attr-value,
-.token.keyword {
-  color: #569cd6;
+.hljs-string,
+.hljs-bullet,
+.hljs-subst,
+.hljs-title,
+.hljs-section,
+.hljs-emphasis,
+.hljs-type,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-addition,
+.hljs-variable,
+.hljs-template-variable {
+  @apply text-[#98c379];
 }
 
-.token.function {
-  color: #dcdcaa;
+.hljs-comment,
+.hljs-quote,
+.hljs-deletion,
+.hljs-meta {
+  @apply text-[#7f848e];
 }
 
-.token.regex,
-.token.important,
-.token.variable {
-  color: #9cdcfe;
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-doctag,
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  @apply font-bold;
 }
 
-.token.important {
-  font-weight: bold;
-}
-
-.token.bold {
-  font-weight: bold;
-}
-
-.token.italic {
-  font-style: italic;
+.hljs-emphasis {
+  @apply italic;
 }
 
 /* Existing styles */
