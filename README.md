@@ -8,6 +8,51 @@ The blog posts are stored in `/_posts` as Markdown files with front matter suppo
 
 To create the blog posts we use [`remark`](https://github.com/remarkjs/remark) and [`remark-html`](https://github.com/remarkjs/remark-html) to convert the Markdown files into an HTML string, and then send it down as a prop to the page. The metadata of every post is handled by [`gray-matter`](https://github.com/jonschlinkert/gray-matter) and also sent in props to the page.
 
+## Features
+
+- **Markdown Support**: Blog posts written in Markdown with front matter
+- **Syntax Highlighting**: Code blocks with language-specific highlighting using highlight.js
+- **YouTube Embeds**: Automatic embedding of YouTube videos using URLs or components
+- **Interactive Maps**: GeoJSON map rendering using Mapbox
+- **Responsive Design**: Built with Tailwind CSS
+
+## Mapbox Setup
+
+To enable interactive maps in your blog posts, you need to set up a Mapbox access token:
+
+1. Get a free Mapbox access token from [https://account.mapbox.com/access-tokens/](https://account.mapbox.com/access-tokens/)
+2. Create a `.env.local` file in the root directory
+3. Add your token to the file:
+   ```
+   NEXT_PUBLIC_MAPBOX_TOKEN=your_mapbox_token_here
+   ```
+4. Restart your development server
+
+### Using Maps in Blog Posts
+
+You can embed interactive maps in your blog posts using GeoJSON code blocks:
+
+```markdown
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-122.486052, 37.830348],
+          [-122.486052, 37.830348]
+        ]
+      }
+    }
+  ]
+}
+```
+```
+
 ## Demo
 
 [https://next-blog-starter.vercel.app/](https://next-blog-starter.vercel.app/)
