@@ -23,10 +23,10 @@ const AboutInfo = ({ name, picture }: Props) => {
             <h1 className="text-3xl font-bold text-forest-800 mb-4">{name}</h1>
             <div className="prose text-forest-700 space-y-6">
               <p>
-                Joe is a staff level software developer with over a decade of experience specializing in mobile development on Android. He is most widely known
-                for his work on PhoneGap and Apache Cordova, but has recently worked with AI/ML technologies specializing in Local/On Device deployments, has 
-                contributed to Tensorflow and has spoken at numerous conferences on the topic, including at PyTorch Conference.
+                Joe has been many things in his career, but is most well known as a staff level software engineer with over a decade of experience specializing in mobile development on Android. He is most widely known
+                for his work on PhoneGap and Apache Cordova, but has recently worked with AI/ML technologies specializing in Local/On Device deployments, has contributed to Tensorflow and has spoken at numerous conferences on the topic, including at PyTorch Conference 2023.          
               </p>
+              <p>Joe is currently working as an Engineering Manager, supervising a team of frontend software engineers, helping them grow and providing technical guidance.  He is also a founder of Baseweight.ai, a company that is focused on building OnDevice AI tools for the future. </p>
               <p>
                 He attempted a south-bound thru-hike of the Pacific Crest Trail in 2024, but had to abandon the attempt due to numerous injuries. In the past, 
                 he has been associated with numerous causes such as activism related to the state surveillance of indigenous people and environmental movements, 
