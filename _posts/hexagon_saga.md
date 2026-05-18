@@ -2,7 +2,7 @@
 title: 'Slaying the Snapdragon: Getting things to work'
 excerpt: 'An update on NEXA and other progress'
 coverImage: '/assets/cover_image/snapdragon_phone.jpg'
-date: '2026-06-25T10:48:30.322Z'
+date: '2026-04-25T10:48:30.322Z'
 author:
   name: Joe Bowser
   picture: '/assets/blog/authors/joe.png'
