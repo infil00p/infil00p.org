@@ -1,8 +1,8 @@
 ---
 title: 'Slaying the Snapdragon: Getting things to work'
 excerpt: 'An update on NEXA and other progress'
-coverImage: '/assets/cover_image/pasayten_meadow.jpg'
-date: '2026-03-02T10:48:30.322Z'
+coverImage: '/assets/cover_image/snapdragon_phone.jpg'
+date: '2026-06-25T10:48:30.322Z'
 author:
   name: Joe Bowser
   picture: '/assets/blog/authors/joe.png'
@@ -44,4 +44,5 @@ Now, are they good outputs? I don't think they are, but I am uncertain whether t
 
 ## Where things are at now
 
-I can get Snapdragon to work on Baseweight Snap, but it is by no means stable.  This work definitely highlighted the fact that accelerated Android inference is an absolute nightmare dependent on hardware fragmentation, and I wasn't aware of exactly how dogwater Vulkan is on an Adreno chip.  It's also kind of hilarious that if you're doing OpenCL on Adreno, you might as well just go ahead and use full Hexagon if possible.
+I can get Snapdragon to work on Baseweight Snap, but it is by no means stable.  This work definitely highlighted the fact that accelerated Android inference is an absolute nightmare dependent on hardware fragmentation, and I wasn't aware of exactly how dogwater Vulkan is on an Adreno chip.  I did release a new test version that has support for all three backends on llama.cpp on the Google Play store.  Feel free to try it out and let me know whether it's useful.  I know that most people use PocketPal, but I dislike React Native for Local ML use cases due to the way that React Native renders the UI and steals CPU cycles.  I may actually write a blog post about that comparing llama.rn to llama.cpp.  It may shock people who know me from the Cordova days, but I'm a big proponent of avoiding the nth body problem, and I agree with AirBNB's reasons for dropping React Native.
+
