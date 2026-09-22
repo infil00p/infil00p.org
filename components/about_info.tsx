@@ -23,10 +23,9 @@ const AboutInfo = ({ name, picture }: Props) => {
             <h1 className="text-3xl font-bold text-forest-800 mb-4">{name}</h1>
             <div className="prose text-forest-700 space-y-6">
               <p>
-                Joe has been many things in his career, but is most well known as a staff level software engineer with over a decade of experience specializing in mobile development on Android. He is most widely known
-                for his work on PhoneGap and Apache Cordova, but has recently worked with AI/ML technologies specializing in Local/On Device deployments, has contributed to Tensorflow and has spoken at numerous conferences on the topic, including at PyTorch Conference 2023.          
+                Joe has been many things in his career, such as Startup Founder and Engineering Manager, but is most well known as a Senior Machine Learning Engineer specializing in deploying OnDevice AI.  Prior to the AI boom, Joe worked as a Staff Level Software Engineer, and is known for co-creating PhoneGap and Apache Cordova, being the lead developer of Cordova-Android from 2008 until 2018.
               </p>
-              <p>Joe is currently working as an Engineering Manager, supervising a team of frontend software engineers, helping them grow and providing technical guidance.  He is also a founder of Baseweight.ai, a company that is focused on building OnDevice AI tools for the future. </p>
+              <p>Joe is currently a Senior Machine Learning Engineer at Mozilla, working with the Firefox AI Platform tema to bring OnDevice LLM powered features to Firefox.</p>
               <p>
                 He attempted a south-bound thru-hike of the Pacific Crest Trail in 2024, but had to abandon the attempt due to numerous injuries. In the past, 
                 he has been associated with numerous causes such as activism related to the state surveillance of indigenous people and environmental movements, 
